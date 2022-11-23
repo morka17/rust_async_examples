@@ -1,6 +1,7 @@
 mod executor;
 mod wakers;
 mod futures;
+mod thread_pool;
 
 pub use wakers::thread_waker::ThreadWaker;
 pub use futures::{
